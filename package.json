@@ -1,5 +1,5 @@
 {
-  "name": "node",
+  "name": "hello-api-vercel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,12 @@
     "node": "18.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
   }
 }
