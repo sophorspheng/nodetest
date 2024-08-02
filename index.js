@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express();
 
-app.get("/",(req,res)=>{
-  res.send("Hello Api vercel")
+app.get("/getList",(req,res)=>{
+  res.send("Hello Api vercel i want to  add  more.......")
 })
 
 
